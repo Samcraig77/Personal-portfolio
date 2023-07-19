@@ -1,3 +1,32 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red; /*take out border before deployment*/
+}
+
+
+nav {
+    display: inline-flex;
+    padding: 1% auto auto auto;
+    margin: 1% auto auto auto;
+    position: fixed;
+    width: 100%;
+}
+
+.name {
+    width: max-content;
+}
+
+.spacer {
+    width: 60%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links {
+    margin: 2px;
 }
